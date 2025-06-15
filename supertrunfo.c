@@ -102,7 +102,7 @@ int main() {
     //Resultado da comparação
     if (densidade1 < densidade2){
         printf("Carta 1 (%s) venceu !\n", nome_da_cidade);
-    } else if (densidade2 < densidade1){
+    } else{
         printf("Carta 2 (%s) venceu !\n", nome_da_cidade2);
     }
 
